@@ -6,10 +6,6 @@ Main Headings display on left, their sections to the right of them.
 Hover over work image adds shadow effect to image.
 */
 
-/* 
-Work section first image should be bigger. First child? 
-*/
-
 /*
 click on nav item scrolls to corresponding section
 */
@@ -18,8 +14,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
-    background-color: darkblue;
+    padding: 2%;
+    background-image: linear-gradient(rgb(129, 29, 118),rgb(147, 143, 20));
     color: white;
     /* add background image */
 }
@@ -31,12 +27,16 @@ body {
 }
 
 h1 {
-    font-size: 200%;
+    font-size: 250%;
 }
   
 h2 {
     margin: 2% 0;
-    font-size: 150%;
+    font-size: 160%;
+}
+
+h3 {
+    font-size: 130%;
 }
   
 nav ul {
@@ -64,12 +64,26 @@ main {
 section {
     padding-right: 5%;
 }
+
+#work section img {
+    width: 10%;
+}
+
+/* 
+Work section first image should be bigger. nthchild? 
+*/
+/*
+#work:nth-child(2) {
+
+    width: 100%;
+}
+*/
   
 footer {
     display: flex;
     justify-content: center;
     padding: 2%;
-    background-color: darkblue;
+    background-image: linear-gradient(rgb(147, 143, 20),rgb(129, 29, 118));
     color: white;
 }
   
