@@ -15,12 +15,14 @@
             <h2>Developer Portfolio</h2>
             <nav>
                 <ul>
-                    <li><a>About Me</a></li>
-                    <li><a>My Work</a></li>
-                    <li><a>Contact Me</a></li>
+                    <li><button onclick="scroll" id="about" title="Go To About Me">About Me</button></li>
+                    <li><button onclick="scroll" id="work" title="Go To My Work">My Work</button></li>
+                    <li><button onclick="scroll" id="contact" title="Go To Contact Me">Contact Me</button></li>
                 </ul>
             </nav>
         </header>
+
+        <div class="hero"></div>
 
         <main>
             <sec>
@@ -32,29 +34,31 @@
                 </p>
                 <p>
                     Then a career switch to Computer Science. 
-                    Curiosity about the creation of apps and motivation to be in a more creative feild.
+                    Curious about the creation of apps and motivated to be in a more creative feild.
                     Enrolled in KU Coding Bootcamp.
                 </p>
             </sec>
             <!-- each image/section should be a link to deployed app -->
             <section id="work">
                 <h3>My Work</h3>
-                <section class="app">
+                <section class="card">
                     <h4>Study Guide</h4>
                     <img src="./assets/images/Petal.jpeg">
                 </section>
-                <section class="app">
+                <section class="card">
                     <h4>Marketing Agency</h4>
-                    <!-- Image 2 -->
+                    <img src="./assets/images/social-media-marketing.jpg">
                 </section>
-                <section class="app">
+                <!-- 
+                <section class="card">
                     <h4>Placeholder</h4>
-                    <!-- Image 3 -->
+                    Image 3
                 </section>
-                <section class="app">
+                <section class="card">
                     <h4>Another Placeholder</h4>
-                    <!-- Image 4 -->
-                </section>
+                    Image 4
+                </section> 
+                -->
             </section>
             <section>
                 <h3>Contact Me</h3>

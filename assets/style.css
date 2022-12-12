@@ -1,21 +1,9 @@
-/*
-Main Headings display on left, their sections to the right of them.
-*/
-
-/*
-Hover over work image adds shadow effect to image.
-*/
-
-/*
-click on nav item scrolls to corresponding section
-*/
-
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2%;
-    background-image: linear-gradient(rgb(129, 29, 118),rgb(147, 143, 20));
+    background-image: linear-gradient(rgb(129, 82, 29),rgb(142, 137, 120));
     color: white;
     /* add background image */
 }
@@ -37,6 +25,8 @@ h2 {
 
 h3 {
     font-size: 130%;
+    width: 100%;
+    /* Display on the left with a bar spanning the content on the right. */
 }
   
 nav ul {
@@ -45,28 +35,53 @@ nav ul {
     min-width: 300px;
 }
   
-nav a {
+nav button {
     color: white;
+    background-color: transparent;
     text-decoration: none;
 }
   
-nav a:hover {
+nav button:hover {
     text-decoration: underline;
     color: black;
 }
-  
+
+/*
+click on nav item scrolls to corresponding section
+
+nav a:click::after scroll {
+*/
+
+.hero {
+    height: 300px;
+    width: 100%;
+    background-image: url("./images/redrock.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
 main {
     display: flex;
     flex-direction: column;
+    padding: 5% 10%;
     margin: auto;
 }
-  
-section {
-    padding-right: 5%;
+
+#work {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/*
+Hover over work image adds shadow effect to image.
+*/
+
+#work section {
+    padding: 1%;
 }
 
 #work section img {
-    width: 10%;
+    width: 100%;
 }
 
 /* 
@@ -78,12 +93,30 @@ Work section first image should be bigger. nthchild?
     width: 100%;
 }
 */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 40%;
+    border-width: 2%;
+    border-color: rgb(139, 59, 19);
+    border-style: solid;
+    margin: 2%;
+}
+
+.card h4 {
+    position: absolute;
+    margin-bottom: 50px;
+    background-color: rgb(139, 59, 19);
+    color: white;
+}
   
 footer {
     display: flex;
     justify-content: center;
     padding: 2%;
-    background-image: linear-gradient(rgb(147, 143, 20),rgb(129, 29, 118));
+    background-image: linear-gradient(rgb(142, 137, 120),rgb(129, 82, 29));
     color: white;
 }
   
