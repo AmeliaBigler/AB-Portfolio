@@ -4,6 +4,10 @@
     --dark: rgb(53, 39, 31);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -38,13 +42,13 @@ ul {
     min-width: 300px;
 }
   
-nav button {
+nav a {
     color: white;
     background-color: transparent;
     text-decoration: none;
 }
   
-nav button:hover {
+nav a:hover {
     text-decoration: underline;
     color: black;
 }
