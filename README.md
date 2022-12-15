@@ -14,9 +14,9 @@ N/A
 
 This website can be used to learn more about me and view some of my deployed work.
 
-![Website Screenshot](screenshot placeholder)
+![Website Screenshot](./assets/images/screenshot.png)
 
-[Deployed Website Link](link placeholder)
+[Deployed Website Link](https://ameliabigler.github.io/AB-Portfolio/)
 
 ## Credits
 
