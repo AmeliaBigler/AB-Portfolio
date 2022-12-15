@@ -20,6 +20,7 @@ This website can be used to learn more about me and view some of my deployed wor
 
 ## Credits
 
+N/A
 
 ## License
 
