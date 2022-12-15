@@ -2,9 +2,9 @@
 
 ## Description
 
-This developer portfolio website can be used by recruiters/hiring managers to learn more about me and view some of my deployed work.
+This developer portfolio can be used by recruiters/hiring managers to learn more about me and view some of my deployed work.
 
-The objective of this project was to link my deployed apps in a responsive app. 
+The objective of this project was to link my deployed apps in a responsive website. 
 
 ## Installation
 
