@@ -34,7 +34,6 @@ h2 {
 h3 {
     font-size: 130%;
     padding: 2%;
-    /* Future add: Display on left side of content with a bar spanning between. */
 }
   
 ul {
@@ -87,8 +86,6 @@ Future add: Hover over work image adds shadow effect to image.
     border-style: solid;
     margin: 2%;
     cursor: pointer; 
-    /*does this need to be added to a hover function? 
-    opacity */
 }
 
 .card img {
@@ -109,9 +106,7 @@ Future add: Hover over work image adds shadow effect to image.
 }
 
 #feature img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
+    height: 250px;
 }
 
 footer {
